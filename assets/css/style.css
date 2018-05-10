@@ -1,0 +1,57 @@
+:root {
+    /* Define color scheme */
+    --color-mint-green    : #4aaaa5;
+    --color-text          : #202020;
+    --color-text-highlight: #ff6600;
+}
+
+body {
+    color      : var(--color-text);
+    font-family: "Calibri", cursive;
+    font-size  : 30px;
+}
+
+
+.container {
+    width  : 500px;
+    margin : auto;
+    padding: 50px 0;
+}
+
+h1 {
+    color         : var(--color--);
+    font-family   : "Calibri", cursive;
+    font-size     : 1.6em;
+    font-weight   : bold;
+    letter-spacing: 0.03em;
+
+    margin-bottom : 6%;
+}
+
+@-moz-document url-prefix() {
+h1 {
+    letter-spacing: 0;
+}
+}
+
+p {
+    letter-spacing: 0.014em;
+    line-height   : 1.2em;
+
+    margin-bottom : 1%;
+}
+
+p strong {
+    color      : var(--color-text-highlight);
+    font-weight: bold;
+}
+
+#userStats p {
+    float        : left;
+    width        : 55%;
+    margin-bottom: 8%;
+}
+
+#guesses {
+    letter-spacing: 0.70em;
+}
